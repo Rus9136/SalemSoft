@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты SalemSOFT: телефон +7 708 975 2414, WhatsApp, Telegram. Форма обратной связи для консультаций по автоматизации">
+    <meta name="keywords" content="контакты SalemSOFT, телефон, WhatsApp, Telegram, консультация, автоматизация 1С">
+    <title>Контакты - SalemSOFT</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>SalemSOFT</h1>
+                    </a>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Главная</a></li>
+                        <li><a href="about.html" class="nav-link">О компании</a></li>
+                        <li><a href="services.html" class="nav-link">Услуги</a></li>
+                        <li><a href="clients.html" class="nav-link">Клиенты</a></li>
+                        <li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-contact">
+                    <a href="tel:+77089752414" class="phone">+7 708 975 2414</a>
+                    <button class="btn btn-primary btn-header">Связаться</button>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">Контакты</h1>
+                <p class="page-subtitle">Свяжитесь с нами удобным способом</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Main -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Как с нами связаться</h2>
+                    <p>
+                        Мы всегда готовы ответить на ваши вопросы и предоставить бесплатную 
+                        консультацию по автоматизации вашего бизнеса.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h3>Телефон</h3>
+                                <a href="tel:+77089752414" class="contact-link">+7 708 975 2414</a>
+                                <p>Звонки принимаем с 9:00 до 18:00 (пн-пт)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h3>Email</h3>
+                                <a href="mailto:info@salemsoft.kz" class="contact-link">info@salemsoft.kz</a>
+                                <p>Отвечаем на письма в течение 24 часов</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.484 3.488"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h3>WhatsApp</h3>
+                                <a href="https://wa.me/77089752414" target="_blank" class="contact-link">+7 708 975 2414</a>
+                                <p>Быстрые ответы в мессенджере</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121L7.26 13.73l-2.955-.923c-.64-.203-.658-.64.135-.954L18.221 7.21c.53-.201.994.123.82.753z"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h3>Telegram</h3>
+                                <a href="https://t.me/+77089752414" target="_blank" class="contact-link">@SalemSOFT</a>
+                                <p>Оперативное общение в Telegram</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="working-hours">
+                        <h3>Время работы</h3>
+                        <div class="hours-grid">
+                            <div class="hours-item">
+                                <span class="days">Понедельник - Пятница</span>
+                                <span class="time">9:00 - 18:00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="days">Суббота</span>
+                                <span class="time">10:00 - 15:00</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="days">Воскресенье</span>
+                                <span class="time">Выходной</span>
+                            </div>
+                        </div>
+                        <p class="hours-note">
+                            <strong>Техническая поддержка клиентов</strong> - круглосуточно
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h2>Оставить заявку</h2>
+                        <p>Заполните форму, и мы свяжемся с вами в течение рабочего дня</p>
+                    </div>
+                    
+                    <form class="contact-form-main" id="mainContactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Имя *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Фамилия</label>
+                                <input type="text" id="lastName" name="lastName">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">Телефон *</label>
+                                <input type="tel" id="contactPhone" name="phone" required placeholder="+7 ___ ___ __ __">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="example@company.kz">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="companyName">Название компании</label>
+                            <input type="text" id="companyName" name="company" placeholder="ТОО, АО, ИП">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="serviceType">Интересующая услуга</label>
+                            <select id="serviceType" name="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="1c-implementation">Внедрение 1С</option>
+                                <option value="1c-support">Сопровождение 1С:ИТС</option>
+                                <option value="web-cash">Веб-кассы и ОФД</option>
+                                <option value="cloud">Облачные решения</option>
+                                <option value="bi-analytics">BI-аналитика</option>
+                                <option value="consulting">IT-консалтинг</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="projectDescription">Описание проекта или задачи</label>
+                            <textarea 
+                                id="projectDescription" 
+                                name="message" 
+                                rows="5" 
+                                placeholder="Расскажите подробнее о ваших потребностях, текущих системах, планах по автоматизации...">
+                            </textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Планируемый бюджет (необязательно)</label>
+                            <select id="budget" name="budget">
+                                <option value="">Не определен</option>
+                                <option value="under-500k">До 500 000 тенге</option>
+                                <option value="500k-1m">500 000 - 1 000 000 тенге</option>
+                                <option value="1m-3m">1 - 3 млн тенге</option>
+                                <option value="3m-5m">3 - 5 млн тенге</option>
+                                <option value="over-5m">Свыше 5 млн тенге</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Желаемые сроки реализации</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Не определены</option>
+                                <option value="asap">Как можно скорее</option>
+                                <option value="1-month">В течение месяца</option>
+                                <option value="2-3-months">2-3 месяца</option>
+                                <option value="6-months">До полугода</option>
+                                <option value="flexible">Гибкие сроки</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="consent" required>
+                                <span class="checkmark"></span>
+                                Я согласен на обработку персональных данных и получение информации о услугах компании
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full btn-large">
+                            Отправить заявку
+                        </button>
+                        
+                        <div class="form-note">
+                            <p>
+                                После отправки заявки наш менеджер свяжется с вами в течение рабочего дня 
+                                для уточнения деталей и предложения решения.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Наше местоположение</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <div class="map-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </div>
+                        <h3>SalemSOFT</h3>
+                        <p>г. Алматы, Казахстан</p>
+                        <p class="map-note">
+                            <em>Точный адрес офиса будет предоставлен при записи на встречу</em>
+                        </p>
+                        <button class="btn btn-outline">Показать на карте</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact -->
+    <section class="quick-contact">
+        <div class="container">
+            <div class="quick-contact-content">
+                <h2>Нужна срочная консультация?</h2>
+                <p>Свяжитесь с нами прямо сейчас через мессенджеры</p>
+                <div class="quick-buttons">
+                    <a href="https://wa.me/77089752414?text=Здравствуйте! Меня интересуют услуги по автоматизации бизнеса." 
+                       class="btn btn-success btn-large" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.484 3.488"/>
+                        </svg>
+                        Написать в WhatsApp
+                    </a>
+                    
+                    <a href="https://t.me/+77089752414" 
+                       class="btn btn-primary btn-large" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121L7.26 13.73l-2.955-.923c-.64-.203-.658-.64.135-.954L18.221 7.21c.53-.201.994.123.82.753z"/>
+                        </svg>
+                        Написать в Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">SalemSOFT</h3>
+                    <p class="footer-text">
+                        IT-решения, выстроенные для роста вашего бизнеса
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Внедрение 1С</a></li>
+                        <li><a href="services.html">Сопровождение</a></li>
+                        <li><a href="services.html">Веб-кассы</a></li>
+                        <li><a href="services.html">Облачные решения</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Компания</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="clients.html">Клиенты</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Контакты</h4>
+                    <p class="footer-contact">
+                        <strong>Телефон:</strong><br>
+                        <a href="tel:+77089752414">+7 708 975 2414</a>
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/77089752414" target="_blank" class="social-link">WhatsApp</a>
+                        <a href="https://t.me/+77089752414" target="_blank" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SalemSOFT. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage">
+        <div class="success-content">
+            <div class="success-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+            </div>
+            <h3>Заявка отправлена!</h3>
+            <p>Спасибо за обращение. Мы свяжемся с вами в ближайшее время.</p>
+            <button class="btn btn-primary" onclick="closeSuccessMessage()">Понятно</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>

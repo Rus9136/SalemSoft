@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Клиенты и партнеры SalemSOFT - государственные компании, Самрук-Қазына, крупный бизнес Казахстана. Отзывы и кейсы">
+    <meta name="keywords" content="клиенты SalemSOFT, Самрук-Қазына, государственные компании, партнеры, отзывы, кейсы">
+    <title>Клиенты и партнеры - SalemSOFT</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>SalemSOFT</h1>
+                    </a>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Главная</a></li>
+                        <li><a href="about.html" class="nav-link">О компании</a></li>
+                        <li><a href="services.html" class="nav-link">Услуги</a></li>
+                        <li><a href="clients.html" class="nav-link active">Клиенты</a></li>
+                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-contact">
+                    <a href="tel:+77089752414" class="phone">+7 708 975 2414</a>
+                    <button class="btn btn-primary btn-header">Связаться</button>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">Наши клиенты</h1>
+                <p class="page-subtitle">Нам доверяют ведущие компании Казахстана</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Нам доверяют</h2>
+                <p class="section-subtitle">Более 50 компаний выбрали наши IT-решения</p>
+            </div>
+            
+            <div class="trust-stats">
+                <div class="trust-stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">успешных проектов</div>
+                </div>
+                <div class="trust-stat">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">лет на рынке</div>
+                </div>
+                <div class="trust-stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">клиентов рекомендуют нас</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Categories -->
+    <section class="client-categories">
+        <div class="container">
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Государственные компании</h3>
+                    <p>
+                        Работаем с компаниями группы Самрук-Қазына, 
+                        государственными учреждениями и акиматами
+                    </p>
+                    <div class="category-count">15+ проектов</div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Крупный бизнес</h3>
+                    <p>
+                        Автоматизируем процессы в крупных частных компаниях 
+                        различных отраслей экономики
+                    </p>
+                    <div class="category-count">25+ проектов</div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                        </svg>
+                    </div>
+                    <h3>Средний бизнес</h3>
+                    <p>
+                        Помогаем растущим компаниям внедрить эффективные 
+                        системы управления и учета
+                    </p>
+                    <div class="category-count">10+ проектов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos -->
+    <section class="client-logos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Клиенты и партнеры</h2>
+                <p class="section-subtitle">Логотипы компаний, с которыми мы работаем</p>
+            </div>
+            
+            <div class="logos-grid">
+                <!-- Государственные компании -->
+                <div class="logo-item government">
+                    <div class="logo-placeholder">
+                        <span>Самрук-Қазына</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item government">
+                    <div class="logo-placeholder">
+                        <span>КазМунайГаз</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item government">
+                    <div class="logo-placeholder">
+                        <span>Казпочта</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item government">
+                    <div class="logo-placeholder">
+                        <span>КТЖ</span>
+                    </div>
+                </div>
+                
+                <!-- Частные компании -->
+                <div class="logo-item private">
+                    <div class="logo-placeholder">
+                        <span>ТОО "Альфа"</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item private">
+                    <div class="logo-placeholder">
+                        <span>ТОО "Бета"</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item private">
+                    <div class="logo-placeholder">
+                        <span>АО "Гамма"</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item private">
+                    <div class="logo-placeholder">
+                        <span>ТОО "Дельта"</span>
+                    </div>
+                </div>
+                
+                <!-- IT Партнеры -->
+                <div class="logo-item partner">
+                    <div class="logo-placeholder">
+                        <span>1С</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item partner">
+                    <div class="logo-placeholder">
+                        <span>Microsoft</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item partner">
+                    <div class="logo-placeholder">
+                        <span>Oracle</span>
+                    </div>
+                </div>
+                
+                <div class="logo-item partner">
+                    <div class="logo-placeholder">
+                        <span>VMware</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="logos-note">
+                <p><em>* Логотипы клиентов размещены с их разрешения</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Успешные кейсы</h2>
+                <p class="section-subtitle">Примеры наших проектов</p>
+            </div>
+            
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-category">Государственный сектор</div>
+                    <h3>Автоматизация документооборота</h3>
+                    <p class="case-description">
+                        Внедрение комплексной системы электронного документооборота 
+                        в крупной государственной компании. Автоматизация процессов 
+                        согласования и учета документов.
+                    </p>
+                    <div class="case-results">
+                        <div class="result-item">
+                            <strong>60%</strong>
+                            <span>сокращение времени обработки документов</span>
+                        </div>
+                        <div class="result-item">
+                            <strong>100%</strong>
+                            <span>контроль исполнения поручений</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">1С:Документооборот</span>
+                        <span class="tech-tag">Интеграции</span>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-category">Торговля</div>
+                    <h3>Автоматизация торгового предприятия</h3>
+                    <p class="case-description">
+                        Комплексное внедрение 1С:Управление торговлей для сети магазинов. 
+                        Интеграция с интернет-магазином, настройка складского учета и CRM.
+                    </p>
+                    <div class="case-results">
+                        <div class="result-item">
+                            <strong>40%</strong>
+                            <span>увеличение скорости обслуживания</span>
+                        </div>
+                        <div class="result-item">
+                            <strong>25%</strong>
+                            <span>рост продаж за первый год</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">1С:УТ</span>
+                        <span class="tech-tag">Веб-кассы</span>
+                        <span class="tech-tag">CRM</span>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-category">Производство</div>
+                    <h3>ERP-система для производства</h3>
+                    <p class="case-description">
+                        Внедрение 1С:ERP для производственного предприятия. 
+                        Автоматизация планирования производства, учета сырья и готовой продукции.
+                    </p>
+                    <div class="case-results">
+                        <div class="result-item">
+                            <strong>30%</strong>
+                            <span>сокращение складских остатков</span>
+                        </div>
+                        <div class="result-item">
+                            <strong>50%</strong>
+                            <span>ускорение планирования производства</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">1С:ERP</span>
+                        <span class="tech-tag">BI-аналитика</span>
+                        <span class="tech-tag">Интеграции</span>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-category">Услуги</div>
+                    <h3>Облачная инфраструктура</h3>
+                    <p class="case-description">
+                        Миграция IT-инфраструктуры компании в облако. 
+                        Настройка отказоустойчивой системы и круглосуточного мониторинга.
+                    </p>
+                    <div class="case-results">
+                        <div class="result-item">
+                            <strong>50%</strong>
+                            <span>снижение затрат на IT</span>
+                        </div>
+                        <div class="result-item">
+                            <strong>99.9%</strong>
+                            <span>время доступности системы</span>
+                        </div>
+                    </div>
+                    <div class="case-tech">
+                        <span class="tech-tag">Облако</span>
+                        <span class="tech-tag">1С в облаке</span>
+                        <span class="tech-tag">Мониторинг</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <p class="section-subtitle">Что говорят о нас наши клиенты</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Команда SalemSOFT показала высокий профессионализм при внедрении 
+                            системы документооборота. Проект был выполнен в срок, сотрудники 
+                            прошли качественное обучение. Рекомендуем как надежного партнера."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Айдар Нуркенов</h4>
+                            <p>Директор по IT, АО "КазЭнерго"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Выражаем благодарность за качественное внедрение 1С:Управление торговлей. 
+                            Автоматизация складского учета позволила значительно повысить точность 
+                            данных и ускорить процессы."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Марина Козлова</h4>
+                            <p>Финансовый директор, ТОО "АлмаТрейд"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Сотрудничество с SalemSOFT превзошло наши ожидания. Миграция в облако 
+                            прошла без потери данных, техподдержка работает оперативно. 
+                            Существенно сократились расходы на IT-инфраструктуру."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Дмитрий Петров</h4>
+                            <p>Генеральный директор, ТОО "ИнноТех"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership -->
+    <section class="partnership">
+        <div class="container">
+            <div class="partnership-content">
+                <div class="partnership-text">
+                    <h2>Стать нашим партнером</h2>
+                    <p>
+                        Мы открыты для сотрудничества с IT-компаниями, системными интеграторами 
+                        и консалтинговыми компаниями. Предлагаем выгодные условия партнерства 
+                        и совместную работу над крупными проектами.
+                    </p>
+                    <div class="partnership-benefits">
+                        <div class="benefit-item">
+                            <h4>Совместные проекты</h4>
+                            <p>Участие в крупных тендерах и комплексных проектах</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Обмен экспертизой</h4>
+                            <p>Совместное развитие компетенций и знаний</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Расширение возможностей</h4>
+                            <p>Доступ к новым рынкам и клиентам</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Обсудить партнерство</button>
+                </div>
+                
+                <div class="partnership-icon">
+                    <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.54 8H16c-.8 0-1.54.37-2.01.99l-2.98 3.86c-.65.84-.16 2.15.99 2.15H14l2 8h4zm-7.5-10.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm2 16v-7H9V9c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v6h1.5v7h4z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Присоединяйтесь к нашим клиентам</h2>
+                <p class="cta-subtitle">
+                    Получите бесплатную консультацию и узнайте, как мы можем помочь вашему бизнесу
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large" id="openContactForm">Стать клиентом</button>
+                    <a href="https://wa.me/77089752414" class="btn btn-success btn-large" target="_blank">
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">SalemSOFT</h3>
+                    <p class="footer-text">
+                        IT-решения, выстроенные для роста вашего бизнеса
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Внедрение 1С</a></li>
+                        <li><a href="services.html">Сопровождение</a></li>
+                        <li><a href="services.html">Веб-кассы</a></li>
+                        <li><a href="services.html">Облачные решения</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Компания</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="clients.html">Клиенты</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Контакты</h4>
+                    <p class="footer-contact">
+                        <strong>Телефон:</strong><br>
+                        <a href="tel:+77089752414">+7 708 975 2414</a>
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/77089752414" target="_blank" class="social-link">WhatsApp</a>
+                        <a href="https://t.me/+77089752414" target="_blank" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SalemSOFT. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Оставить заявку</h3>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Имя *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Компания</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="message">Комментарий</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>

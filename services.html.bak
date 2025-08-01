@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Услуги SalemSOFT: внедрение 1С, сопровождение, веб-кассы, облачные решения, BI-аналитика, IT-консалтинг для бизнеса в Казахстане">
+    <meta name="keywords" content="внедрение 1С, сопровождение 1С, веб-кассы, облачные решения, BI аналитика, IT консалтинг, Казахстан">
+    <title>Услуги и продукты - SalemSOFT</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>SalemSOFT</h1>
+                    </a>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Главная</a></li>
+                        <li><a href="about.html" class="nav-link">О компании</a></li>
+                        <li><a href="services.html" class="nav-link active">Услуги</a></li>
+                        <li><a href="clients.html" class="nav-link">Клиенты</a></li>
+                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-contact">
+                    <a href="tel:+77089752414" class="phone">+7 708 975 2414</a>
+                    <button class="btn btn-primary btn-header">Связаться</button>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">Услуги и продукты</h1>
+                <p class="page-subtitle">Комплексные IT-решения для автоматизации вашего бизнеса</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detailed -->
+    <section class="services-detailed">
+        <div class="container">
+            
+            <!-- Service 1: 1C Implementation -->
+            <div class="service-detail">
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <h2>Внедрение 1С:Предприятие</h2>
+                        <p class="service-description">
+                            Комплексное внедрение систем 1С:Предприятие с полной настройкой под специфику 
+                            вашего бизнеса. От анализа потребностей до полного запуска системы.
+                        </p>
+                        
+                        <div class="service-features">
+                            <h3>Что включает:</h3>
+                            <ul>
+                                <li>Анализ бизнес-процессов и требований</li>
+                                <li>Выбор оптимальной конфигурации 1С</li>
+                                <li>Настройка системы под специфику компании</li>
+                                <li>Миграция данных из существующих систем</li>
+                                <li>Интеграция с внешними системами</li>
+                                <li>Обучение пользователей</li>
+                                <li>Техническая поддержка после внедрения</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-configurations">
+                            <h3>Конфигурации 1С:</h3>
+                            <div class="configurations-grid">
+                                <div class="config-item">1С:Бухгалтерия</div>
+                                <div class="config-item">1С:Управление торговлей</div>
+                                <div class="config-item">1С:ERP Управление предприятием</div>
+                                <div class="config-item">1С:Зарплата и управление персоналом</div>
+                                <div class="config-item">1С:Управление производственным предприятием</div>
+                                <div class="config-item">1С:CRM</div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">Заказать консультацию</button>
+                    </div>
+                    
+                    <div class="service-detail-icon">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2: 1C Support -->
+            <div class="service-detail">
+                <div class="service-detail-content reverse">
+                    <div class="service-detail-icon">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="service-detail-text">
+                        <h2>Сопровождение 1С:ИТС</h2>
+                        <p class="service-description">
+                            Профессиональная техническая поддержка систем 1С с гарантией быстрого 
+                            решения любых вопросов и регулярными обновлениями конфигураций.
+                        </p>
+                        
+                        <div class="service-features">
+                            <h3>Пакеты поддержки:</h3>
+                            <div class="support-packages">
+                                <div class="package-item">
+                                    <h4>Базовый</h4>
+                                    <ul>
+                                        <li>Консультации по телефону</li>
+                                        <li>Обновление конфигураций</li>
+                                        <li>Время ответа: до 24 часов</li>
+                                    </ul>
+                                </div>
+                                <div class="package-item">
+                                    <h4>Стандартный</h4>
+                                    <ul>
+                                        <li>Удаленная техподдержка</li>
+                                        <li>Регулярные обновления</li>
+                                        <li>Время ответа: до 4 часов</li>
+                                        <li>Резервное копирование</li>
+                                    </ul>
+                                </div>
+                                <div class="package-item">
+                                    <h4>Премиум</h4>
+                                    <ul>
+                                        <li>Поддержка 24/7</li>
+                                        <li>Выездное обслуживание</li>
+                                        <li>Время ответа: до 1 часа</li>
+                                        <li>Мониторинг системы</li>
+                                        <li>Персональный менеджер</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">Выбрать пакет</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3: Web Cash -->
+            <div class="service-detail">
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <h2>Веб-кассы и ОФД</h2>
+                        <p class="service-description">
+                            Полный цикл услуг по подключению онлайн-касс: от выбора оборудования 
+                            до настройки и интеграции с вашими учетными системами.
+                        </p>
+                        
+                        <div class="service-features">
+                            <h3>Наши услуги:</h3>
+                            <ul>
+                                <li>Консультации по выбору кассового оборудования</li>
+                                <li>Регистрация в налоговой и получение ФП</li>
+                                <li>Подключение к ОФД (Оператор фискальных данных)</li>
+                                <li>Интеграция с 1С и другими учетными системами</li>
+                                <li>Обучение персонала работе с кассами</li>
+                                <li>Техническая поддержка оборудования</li>
+                                <li>Ведение реестра касс</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-benefits">
+                            <h3>Преимущества работы с нами:</h3>
+                            <div class="benefits-grid">
+                                <div class="benefit-item">
+                                    <strong>Быстрое подключение</strong>
+                                    <p>Регистрация и настройка за 1-2 дня</p>
+                                </div>
+                                <div class="benefit-item">
+                                    <strong>Полное сопровождение</strong>
+                                    <p>От документооборота до технической поддержки</p>
+                                </div>
+                                <div class="benefit-item">
+                                    <strong>Интеграция с 1С</strong>
+                                    <p>Автоматическая передача данных в учетную систему</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">Подключить кассы</button>
+                    </div>
+                    
+                    <div class="service-detail-icon">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 7.28V5c0-1.1-.9-2-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-2.28A2 2 0 0 0 22 15V9a2 2 0 0 0-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4: Cloud Solutions -->
+            <div class="service-detail">
+                <div class="service-detail-content reverse">
+                    <div class="service-detail-icon">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="service-detail-text">
+                        <h2>Облачные решения</h2>
+                        <p class="service-description">
+                            Миграция вашей IT-инфраструктуры в облако для повышения надежности, 
+                            масштабируемости и снижения затрат на обслуживание.
+                        </p>
+                        
+                        <div class="service-features">
+                            <h3>Облачные услуги:</h3>
+                            <ul>
+                                <li>1С в облаке (1С:Предприятие в облачной инфраструктуре)</li>
+                                <li>Аренда виртуальных серверов</li>
+                                <li>Облачное резервное копирование</li>
+                                <li>Миграция данных в облако</li>
+                                <li>Настройка облачной инфраструктуры</li>
+                                <li>Мониторинг и администрирование</li>
+                                <li>Техническая поддержка 24/7</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="cloud-advantages">
+                            <h3>Преимущества облака:</h3>
+                            <div class="advantages-grid">
+                                <div class="advantage-item">
+                                    <strong>Экономия</strong>
+                                    <p>Снижение затрат на IT-инфраструктуру до 40%</p>
+                                </div>
+                                <div class="advantage-item">
+                                    <strong>Надежность</strong>
+                                    <p>Гарантия доступности 99.9%</p>
+                                </div>
+                                <div class="advantage-item">
+                                    <strong>Масштабируемость</strong>
+                                    <p>Быстрое увеличение мощностей при росте бизнеса</p>
+                                </div>
+                                <div class="advantage-item">
+                                    <strong>Безопасность</strong>
+                                    <p>Защищенные дата-центры и резервирование</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">Перейти в облако</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5: BI Analytics -->
+            <div class="service-detail">
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <h2>BI-аналитика</h2>
+                        <p class="service-description">
+                            Внедрение систем бизнес-аналитики для получения актуальной информации 
+                            о состоянии бизнеса и принятия обоснованных управленческих решений.
+                        </p>
+                        
+                        <div class="service-features">
+                            <h3>Решения по аналитике:</h3>
+                            <ul>
+                                <li>Настройка дашбордов и отчетов в 1С</li>
+                                <li>Интеграция данных из разных источников</li>
+                                <li>Создание управленческих отчетов</li>
+                                <li>Настройка KPI и метрик</li>
+                                <li>Автоматизация формирования отчетности</li>
+                                <li>Внедрение Power BI, Tableau</li>
+                                <li>Обучение работе с аналитическими системами</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bi-solutions">
+                            <h3>Типы аналитических решений:</h3>
+                            <div class="solutions-grid">
+                                <div class="solution-item">
+                                    <h4>Финансовая аналитика</h4>
+                                    <p>Отчеты по прибыльности, движению денежных средств, бюджетированию</p>
+                                </div>
+                                <div class="solution-item">
+                                    <h4>Операционная аналитика</h4>
+                                    <p>Анализ продаж, запасов, производительности, клиентской базы</p>
+                                </div>
+                                <div class="solution-item">
+                                    <h4>HR-аналитика</h4>
+                                    <p>Анализ эффективности персонала, затрат на зарплату, текучести кадров</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">Внедрить аналитику</button>
+                    </div>
+                    
+                    <div class="service-detail-icon">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4zm2 2H5V5h14v14zm0-16H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6: IT Consulting -->
+            <div class="service-detail">
+                <div class="service-detail-content reverse">
+                    <div class="service-detail-icon">
+                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="service-detail-text">
+                        <h2>IT-консалтинг и аудит</h2>
+                        <p class="service-description">
+                            Экспертные консультации по оптимизации IT-процессов, аудит существующих 
+                            решений и разработка стратегии цифровой трансформации.
+                        </p>
+                        
+                        <div class="service-features">
+                            <h3>Консалтинговые услуги:</h3>
+                            <ul>
+                                <li>Аудит существующей IT-инфраструктуры</li>
+                                <li>Анализ бизнес-процессов</li>
+                                <li>Разработка IT-стратегии компании</li>
+                                <li>Планирование цифровой трансформации</li>
+                                <li>Оценка эффективности IT-решений</li>
+                                <li>Консультации по выбору программного обеспечения</li>
+                                <li>Помощь в планировании IT-бюджета</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="consulting-process">
+                            <h3>Этапы консалтинга:</h3>
+                            <div class="process-steps">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Анализ</h4>
+                                        <p>Изучение текущего состояния IT-систем и процессов</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Диагностика</h4>
+                                        <p>Выявление проблем и точек роста</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Рекомендации</h4>
+                                        <p>Разработка плана оптимизации и развития</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Реализация</h4>
+                                        <p>Сопровождение внедрения рекомендаций</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary">Заказать консалтинг</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <p class="section-subtitle">Наши конкурентные преимущества</p>
+            </div>
+            
+            <div class="reasons-grid">
+                <div class="reason-item">
+                    <div class="reason-number">01</div>
+                    <h3>Комплексный подход</h3>
+                    <p>Решаем все IT-задачи в рамках одного проекта - от анализа до внедрения и поддержки</p>
+                </div>
+                
+                <div class="reason-item">
+                    <div class="reason-number">02</div>
+                    <h3>Опытная команда</h3>
+                    <p>Сертифицированные специалисты с опытом работы в госсекторе и крупном бизнесе</p>
+                </div>
+                
+                <div class="reason-item">
+                    <div class="reason-number">03</div>
+                    <h3>Гарантии качества</h3>
+                    <p>Официальные гарантии на все виды работ и техническую поддержку</p>
+                </div>
+                
+                <div class="reason-item">
+                    <div class="reason-number">04</div>
+                    <h3>Прозрачное ценообразование</h3>
+                    <p>Фиксированная стоимость проектов без скрытых платежей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Нужна помощь в выборе решения?</h2>
+                <p class="cta-subtitle">
+                    Наши эксперты проведут бесплатную консультацию и помогут определить оптимальное решение для вашего бизнеса
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large" id="openContactForm">Получить консультацию</button>
+                    <a href="https://wa.me/77089752414" class="btn btn-success btn-large" target="_blank">
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">SalemSOFT</h3>
+                    <p class="footer-text">
+                        IT-решения, выстроенные для роста вашего бизнеса
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Внедрение 1С</a></li>
+                        <li><a href="services.html">Сопровождение</a></li>
+                        <li><a href="services.html">Веб-кассы</a></li>
+                        <li><a href="services.html">Облачные решения</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Компания</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="clients.html">Клиенты</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Контакты</h4>
+                    <p class="footer-contact">
+                        <strong>Телефон:</strong><br>
+                        <a href="tel:+77089752414">+7 708 975 2414</a>
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/77089752414" target="_blank" class="social-link">WhatsApp</a>
+                        <a href="https://t.me/+77089752414" target="_blank" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SalemSOFT. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Оставить заявку</h3>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Имя *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Компания</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="service">Интересующая услуга</label>
+                    <select id="service" name="service">
+                        <option value="">Выберите услугу</option>
+                        <option value="1c-implementation">Внедрение 1С</option>
+                        <option value="1c-support">Сопровождение 1С</option>
+                        <option value="web-cash">Веб-кассы</option>
+                        <option value="cloud">Облачные решения</option>
+                        <option value="bi-analytics">BI-аналитика</option>
+                        <option value="consulting">IT-консалтинг</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Комментарий</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
