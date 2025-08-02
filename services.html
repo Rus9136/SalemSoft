@@ -8,441 +8,400 @@
     <title>Услуги и продукты - SalemSOFT</title>
     
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/responsive.css">
     
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">SalemSOFT</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Услуги</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-left">
+                            <div class="dropdown-title">Наши услуги</div>
+                            <div class="dropdown-links">
+                                <a href="#1c" class="dropdown-link">Внедрение 1С</a>
+                                <a href="#support" class="dropdown-link">Сопровождение 1С:ИТС</a>
+                                <a href="#web" class="dropdown-link">Веб-кассы и ОФД</a>
+                                <a href="#cloud" class="dropdown-link">Облачные решения</a>
+                                <a href="#bi" class="dropdown-link">BI-аналитика</a>
+                                <a href="#consulting" class="dropdown-link">IT-консалтинг</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-right">
+                            <div class="dropdown-card dropdown-card-orange">
+                                <svg class="dropdown-illustration" viewBox="0 0 200 120" fill="none">
+                                    <path d="M20 60 L60 20 L100 60 L140 30 L180 70" stroke="#E47B44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="60" cy="20" r="5" fill="#E47B44"/>
+                                    <circle cx="100" cy="60" r="5" fill="#E47B44"/>
+                                    <circle cx="140" cy="30" r="5" fill="#E47B44"/>
+                                    <circle cx="180" cy="70" r="5" fill="#E47B44"/>
+                                </svg>
+                                <span class="dropdown-subtitle">Внедрение и поддержка</span>
+                                <h4>Автоматизация для роста вашего бизнеса</h4>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">О компании</a>
+                </li>
+                <li class="nav-item">
+                    <a href="clients.html" class="nav-link">Клиенты</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </li>
+            </ul>
+            
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <a href="index.html">
-                        <h1>SalemSOFT</h1>
-                    </a>
-                </div>
-                
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="index.html" class="nav-link">Главная</a></li>
-                        <li><a href="about.html" class="nav-link">О компании</a></li>
-                        <li><a href="services.html" class="nav-link active">Услуги</a></li>
-                        <li><a href="clients.html" class="nav-link">Клиенты</a></li>
-                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    Решения для <span class="underline-accent">вашего</span> бизнеса
+                </h1>
+                <p class="hero-description">
+                    Комплексная автоматизация бизнес-процессов, внедрение 
+                    современных IT-решений и профессиональная поддержка на всех этапах
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="section" id="1c">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: center; gap: 64px;">
+                <div class="fade-in delay-1">
+                    <div class="decoration-line"></div>
+                    <h2><span class="underline-accent">Внедрение</span> 1С</h2>
+                    <p class="text-secondary" style="font-size: 22px; line-height: 1.6;">
+                        Полный цикл внедрения решений 1С для автоматизации учета, 
+                        управления и анализа бизнес-процессов
+                    </p>
+                    <ul style="list-style: none; padding: 0; margin: 24px 0;">
+                        <li style="padding: 8px 0; color: var(--text-secondary);">
+                            <span style="color: var(--accent-orange); margin-right: 8px;">✓</span> 
+                            Анализ и оптимизация бизнес-процессов
+                        </li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">
+                            <span style="color: var(--accent-orange); margin-right: 8px;">✓</span> 
+                            Настройка под специфику вашего бизнеса
+                        </li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">
+                            <span style="color: var(--accent-orange); margin-right: 8px;">✓</span> 
+                            Интеграция с существующими системами
+                        </li>
+                        <li style="padding: 8px 0; color: var(--text-secondary);">
+                            <span style="color: var(--accent-orange); margin-right: 8px;">✓</span> 
+                            Обучение персонала и передача знаний
+                        </li>
                     </ul>
-                </nav>
-                
-                <div class="header-contact">
-                    <a href="tel:+77089752414" class="phone">+7 708 975 2414</a>
-                    <button class="btn btn-primary btn-header">Связаться</button>
+                    <a href="#contact" class="btn btn-primary">Обсудить проект</a>
                 </div>
-                
-                <div class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="fade-in delay-2">
+                    <svg viewBox="0 0 400 300" style="width: 100%; height: auto;">
+                        <rect x="50" y="50" width="300" height="200" stroke="#E47B44" stroke-width="2" fill="none" rx="8"/>
+                        <rect x="70" y="70" width="260" height="40" fill="#E47B44" opacity="0.1" rx="4"/>
+                        <rect x="70" y="130" width="180" height="30" fill="#E47B44" opacity="0.1" rx="4"/>
+                        <rect x="70" y="180" width="220" height="30" fill="#E47B44" opacity="0.1" rx="4"/>
+                        <circle cx="300" cy="145" r="30" stroke="#E47B44" stroke-width="2" fill="none"/>
+                        <path d="M285 145 L295 155 L315 135" stroke="#E47B44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <div class="page-header-content fade-in" data-parallax>
-                <h1 class="page-title">Услуги и продукты</h1>
-                <p class="page-subtitle">Комплексные IT-решения для автоматизации вашего бизнеса</p>
             </div>
         </div>
     </section>
 
-    <!-- Services Detailed -->
-    <section class="services-detailed">
+    <!-- Support Section -->
+    <section class="section" id="support" style="background-color: var(--bg-tertiary);">
         <div class="container">
-            
-            <!-- Service 1: 1C Implementation -->
-            <div class="service-detail fade-in">
-                <div class="service-detail-content">
-                    <div class="service-detail-text slide-in-left">
-                        <h2>Внедрение 1С:Предприятие</h2>
-                        <p class="service-description">
-                            Комплексное внедрение систем 1С:Предприятие с полной настройкой под специфику 
-                            вашего бизнеса. От анализа потребностей до полного запуска системы.
-                        </p>
-                        
-                        <div class="service-features">
-                            <h3>Что включает:</h3>
-                            <ul>
-                                <li>Анализ бизнес-процессов и требований</li>
-                                <li>Выбор оптимальной конфигурации 1С</li>
-                                <li>Настройка системы под специфику компании</li>
-                                <li>Миграция данных из существующих систем</li>
-                                <li>Интеграция с внешними системами</li>
-                                <li>Обучение пользователей</li>
-                                <li>Техническая поддержка после внедрения</li>
-                            </ul>
+            <div class="grid grid-2" style="align-items: center; gap: 64px;">
+                <div class="fade-in delay-2" style="order: 2;">
+                    <div class="decoration-line"></div>
+                    <h2><span class="underline-accent">Сопровождение</span> 1С:ИТС</h2>
+                    <p class="text-secondary" style="font-size: 22px; line-height: 1.6;">
+                        Круглосуточная техническая поддержка и регулярное 
+                        обновление ваших систем автоматизации
+                    </p>
+                    <div class="grid grid-2 mt-4" style="gap: 24px;">
+                        <div>
+                            <h4 style="color: var(--accent-green);">Техподдержка 24/7</h4>
+                            <p class="text-secondary">Оперативное решение любых технических вопросов</p>
                         </div>
-                        
-                        <div class="service-configurations">
-                            <h3>Конфигурации 1С:</h3>
-                            <div class="configurations-grid">
-                                <div class="config-item">1С:Бухгалтерия</div>
-                                <div class="config-item">1С:Управление торговлей</div>
-                                <div class="config-item">1С:ERP Управление предприятием</div>
-                                <div class="config-item">1С:Зарплата и управление персоналом</div>
-                                <div class="config-item">1С:Управление производственным предприятием</div>
-                                <div class="config-item">1С:CRM</div>
-                            </div>
+                        <div>
+                            <h4 style="color: var(--accent-green);">Обновления</h4>
+                            <p class="text-secondary">Регулярные обновления конфигураций и релизов</p>
                         </div>
-                        
-                        <button class="btn btn-primary">Заказать консультацию</button>
-                    </div>
-                    
-                    <div class="service-detail-icon slide-in-right">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/>
-                        </svg>
+                        <div>
+                            <h4 style="color: var(--accent-green);">Консультации</h4>
+                            <p class="text-secondary">Экспертная помощь по работе с системой</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--accent-green);">Доработки</h4>
+                            <p class="text-secondary">Адаптация под новые требования бизнеса</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Service 2: 1C Support -->
-            <div class="service-detail fade-in">
-                <div class="service-detail-content reverse">
-                    <div class="service-detail-icon slide-in-left">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
-                    </div>
-                    
-                    <div class="service-detail-text slide-in-right">
-                        <h2>Сопровождение 1С:ИТС</h2>
-                        <p class="service-description">
-                            Профессиональная техническая поддержка систем 1С с гарантией быстрого 
-                            решения любых вопросов и регулярными обновлениями конфигураций.
-                        </p>
-                        
-                        <div class="service-features">
-                            <h3>Пакеты поддержки:</h3>
-                            <div class="support-packages">
-                                <div class="package-item">
-                                    <h4>Базовый</h4>
-                                    <ul>
-                                        <li>Консультации по телефону</li>
-                                        <li>Обновление конфигураций</li>
-                                        <li>Время ответа: до 24 часов</li>
-                                    </ul>
-                                </div>
-                                <div class="package-item">
-                                    <h4>Стандартный</h4>
-                                    <ul>
-                                        <li>Удаленная техподдержка</li>
-                                        <li>Регулярные обновления</li>
-                                        <li>Время ответа: до 4 часов</li>
-                                        <li>Резервное копирование</li>
-                                    </ul>
-                                </div>
-                                <div class="package-item">
-                                    <h4>Премиум</h4>
-                                    <ul>
-                                        <li>Поддержка 24/7</li>
-                                        <li>Выездное обслуживание</li>
-                                        <li>Время ответа: до 1 часа</li>
-                                        <li>Мониторинг системы</li>
-                                        <li>Персональный менеджер</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="btn btn-primary">Выбрать пакет</button>
-                    </div>
+                <div class="fade-in delay-1" style="order: 1;">
+                    <svg viewBox="0 0 400 300" style="width: 100%; height: auto;">
+                        <circle cx="200" cy="150" r="100" stroke="#818E6F" stroke-width="2" fill="none"/>
+                        <path d="M200 100 L200 150 L250 180" stroke="#818E6F" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="200" cy="150" r="5" fill="#818E6F"/>
+                        <path d="M150 50 Q200 30 250 50" stroke="#818E6F" stroke-width="2" fill="none"/>
+                        <path d="M150 250 Q200 270 250 250" stroke="#818E6F" stroke-width="2" fill="none"/>
+                    </svg>
                 </div>
             </div>
-
-            <!-- Service 3: Web Cash -->
-            <div class="service-detail fade-in">
-                <div class="service-detail-content">
-                    <div class="service-detail-text slide-in-left">
-                        <h2>Веб-кассы и ОФД</h2>
-                        <p class="service-description">
-                            Полный цикл услуг по подключению онлайн-касс: от выбора оборудования 
-                            до настройки и интеграции с вашими учетными системами.
-                        </p>
-                        
-                        <div class="service-features">
-                            <h3>Наши услуги:</h3>
-                            <ul>
-                                <li>Консультации по выбору кассового оборудования</li>
-                                <li>Регистрация в налоговой и получение ФП</li>
-                                <li>Подключение к ОФД (Оператор фискальных данных)</li>
-                                <li>Интеграция с 1С и другими учетными системами</li>
-                                <li>Обучение персонала работе с кассами</li>
-                                <li>Техническая поддержка оборудования</li>
-                                <li>Ведение реестра касс</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="service-benefits">
-                            <h3>Преимущества работы с нами:</h3>
-                            <div class="benefits-grid">
-                                <div class="benefit-item">
-                                    <strong>Быстрое подключение</strong>
-                                    <p>Регистрация и настройка за 1-2 дня</p>
-                                </div>
-                                <div class="benefit-item">
-                                    <strong>Полное сопровождение</strong>
-                                    <p>От документооборота до технической поддержки</p>
-                                </div>
-                                <div class="benefit-item">
-                                    <strong>Интеграция с 1С</strong>
-                                    <p>Автоматическая передача данных в учетную систему</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="btn btn-primary">Подключить кассы</button>
-                    </div>
-                    
-                    <div class="service-detail-icon slide-in-right">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M21 7.28V5c0-1.1-.9-2-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-2.28A2 2 0 0 0 22 15V9a2 2 0 0 0-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 4: Cloud Solutions -->
-            <div class="service-detail fade-in">
-                <div class="service-detail-content reverse">
-                    <div class="service-detail-icon slide-in-left">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                        </svg>
-                    </div>
-                    
-                    <div class="service-detail-text slide-in-right">
-                        <h2>Облачные решения</h2>
-                        <p class="service-description">
-                            Миграция вашей IT-инфраструктуры в облако для повышения надежности, 
-                            масштабируемости и снижения затрат на обслуживание.
-                        </p>
-                        
-                        <div class="service-features">
-                            <h3>Облачные услуги:</h3>
-                            <ul>
-                                <li>1С в облаке (1С:Предприятие в облачной инфраструктуре)</li>
-                                <li>Аренда виртуальных серверов</li>
-                                <li>Облачное резервное копирование</li>
-                                <li>Миграция данных в облако</li>
-                                <li>Настройка облачной инфраструктуры</li>
-                                <li>Мониторинг и администрирование</li>
-                                <li>Техническая поддержка 24/7</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="cloud-advantages">
-                            <h3>Преимущества облака:</h3>
-                            <div class="advantages-grid">
-                                <div class="advantage-item">
-                                    <strong>Экономия</strong>
-                                    <p>Снижение затрат на IT-инфраструктуру до 40%</p>
-                                </div>
-                                <div class="advantage-item">
-                                    <strong>Надежность</strong>
-                                    <p>Гарантия доступности 99.9%</p>
-                                </div>
-                                <div class="advantage-item">
-                                    <strong>Масштабируемость</strong>
-                                    <p>Быстрое увеличение мощностей при росте бизнеса</p>
-                                </div>
-                                <div class="advantage-item">
-                                    <strong>Безопасность</strong>
-                                    <p>Защищенные дата-центры и резервирование</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="btn btn-primary">Перейти в облако</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 5: BI Analytics -->
-            <div class="service-detail fade-in">
-                <div class="service-detail-content">
-                    <div class="service-detail-text slide-in-left">
-                        <h2>BI-аналитика</h2>
-                        <p class="service-description">
-                            Внедрение систем бизнес-аналитики для получения актуальной информации 
-                            о состоянии бизнеса и принятия обоснованных управленческих решений.
-                        </p>
-                        
-                        <div class="service-features">
-                            <h3>Решения по аналитике:</h3>
-                            <ul>
-                                <li>Настройка дашбордов и отчетов в 1С</li>
-                                <li>Интеграция данных из разных источников</li>
-                                <li>Создание управленческих отчетов</li>
-                                <li>Настройка KPI и метрик</li>
-                                <li>Автоматизация формирования отчетности</li>
-                                <li>Внедрение Power BI, Tableau</li>
-                                <li>Обучение работе с аналитическими системами</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bi-solutions">
-                            <h3>Типы аналитических решений:</h3>
-                            <div class="solutions-grid">
-                                <div class="solution-item">
-                                    <h4>Финансовая аналитика</h4>
-                                    <p>Отчеты по прибыльности, движению денежных средств, бюджетированию</p>
-                                </div>
-                                <div class="solution-item">
-                                    <h4>Операционная аналитика</h4>
-                                    <p>Анализ продаж, запасов, производительности, клиентской базы</p>
-                                </div>
-                                <div class="solution-item">
-                                    <h4>HR-аналитика</h4>
-                                    <p>Анализ эффективности персонала, затрат на зарплату, текучести кадров</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="btn btn-primary">Внедрить аналитику</button>
-                    </div>
-                    
-                    <div class="service-detail-icon slide-in-right">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4zm2 2H5V5h14v14zm0-16H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 6: IT Consulting -->
-            <div class="service-detail fade-in">
-                <div class="service-detail-content reverse">
-                    <div class="service-detail-icon slide-in-left">
-                        <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                        </svg>
-                    </div>
-                    
-                    <div class="service-detail-text slide-in-right">
-                        <h2>IT-консалтинг и аудит</h2>
-                        <p class="service-description">
-                            Экспертные консультации по оптимизации IT-процессов, аудит существующих 
-                            решений и разработка стратегии цифровой трансформации.
-                        </p>
-                        
-                        <div class="service-features">
-                            <h3>Консалтинговые услуги:</h3>
-                            <ul>
-                                <li>Аудит существующей IT-инфраструктуры</li>
-                                <li>Анализ бизнес-процессов</li>
-                                <li>Разработка IT-стратегии компании</li>
-                                <li>Планирование цифровой трансформации</li>
-                                <li>Оценка эффективности IT-решений</li>
-                                <li>Консультации по выбору программного обеспечения</li>
-                                <li>Помощь в планировании IT-бюджета</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="consulting-process">
-                            <h3>Этапы консалтинга:</h3>
-                            <div class="process-steps">
-                                <div class="step-item">
-                                    <div class="step-number">1</div>
-                                    <div class="step-content">
-                                        <h4>Анализ</h4>
-                                        <p>Изучение текущего состояния IT-систем и процессов</p>
-                                    </div>
-                                </div>
-                                <div class="step-item">
-                                    <div class="step-number">2</div>
-                                    <div class="step-content">
-                                        <h4>Диагностика</h4>
-                                        <p>Выявление проблем и точек роста</p>
-                                    </div>
-                                </div>
-                                <div class="step-item">
-                                    <div class="step-number">3</div>
-                                    <div class="step-content">
-                                        <h4>Рекомендации</h4>
-                                        <p>Разработка плана оптимизации и развития</p>
-                                    </div>
-                                </div>
-                                <div class="step-item">
-                                    <div class="step-number">4</div>
-                                    <div class="step-content">
-                                        <h4>Реализация</h4>
-                                        <p>Сопровождение внедрения рекомендаций</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="btn btn-primary">Заказать консалтинг</button>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 
-    <!-- Why Choose Us -->
-    <section class="why-choose">
+    <!-- Web Cash Section -->
+    <section class="section" id="web">
         <div class="container">
-            <div class="section-header fade-in">
-                <h2 class="section-title">Почему выбирают нас</h2>
-                <p class="section-subtitle">Наши конкурентные преимущества</p>
+            <div class="grid grid-2" style="align-items: center; gap: 64px;">
+                <div class="fade-in delay-1">
+                    <div class="decoration-line"></div>
+                    <h2><span class="underline-accent">Веб-кассы</span> и ОФД</h2>
+                    <p class="text-secondary" style="font-size: 22px; line-height: 1.6;">
+                        Полное соответствие требованиям законодательства 
+                        и безопасная передача фискальных данных
+                    </p>
+                    <div class="card mt-4" style="background: var(--bg-tertiary);">
+                        <h4>Что включено:</h4>
+                        <ul style="list-style: none; padding: 0; margin: 16px 0;">
+                            <li style="padding: 8px 0;">• Подбор и настройка оборудования</li>
+                            <li style="padding: 8px 0;">• Подключение к ОФД</li>
+                            <li style="padding: 8px 0;">• Интеграция с учетными системами</li>
+                            <li style="padding: 8px 0;">• Обучение работе с кассой</li>
+                            <li style="padding: 8px 0;">• Техническая поддержка</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fade-in delay-2">
+                    <svg viewBox="0 0 400 300" style="width: 100%; height: auto;">
+                        <rect x="100" y="80" width="200" height="140" stroke="#9B7E9A" stroke-width="2" fill="none" rx="8"/>
+                        <rect x="120" y="100" width="160" height="80" fill="#9B7E9A" opacity="0.1" rx="4"/>
+                        <circle cx="150" cy="200" r="8" fill="#9B7E9A"/>
+                        <circle cx="200" cy="200" r="8" fill="#9B7E9A"/>
+                        <circle cx="250" cy="200" r="8" fill="#9B7E9A"/>
+                        <path d="M300 150 L340 150" stroke="#9B7E9A" stroke-width="2" stroke-dasharray="5,5"/>
+                        <circle cx="360" cy="150" r="20" stroke="#9B7E9A" stroke-width="2" fill="none"/>
+                        <path d="M360 140 L360 150 L370 150" stroke="#9B7E9A" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud Section -->
+    <section class="section" id="cloud" style="background-color: var(--bg-tertiary);">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <h2><span class="underline-accent">Облачные</span> решения</h2>
+                <p class="text-secondary" style="font-size: 22px; max-width: 700px; margin: 0 auto;">
+                    Современные облачные технологии для безопасной работы 
+                    из любой точки мира с максимальной производительностью
+                </p>
             </div>
             
-            <div class="reasons-grid">
-                <div class="reason-item fade-in">
-                    <div class="reason-number">01</div>
-                    <h3>Комплексный подход</h3>
-                    <p>Решаем все IT-задачи в рамках одного проекта - от анализа до внедрения и поддержки</p>
+            <div class="grid grid-3 mt-5">
+                <div class="card fade-in delay-1">
+                    <svg class="card-icon" viewBox="0 0 48 48" fill="none">
+                        <path d="M24 32 C18 32 12 28 12 20 C12 12 18 8 24 8 C30 8 36 12 36 20 C36 24 34 28 30 30" stroke="#5B8FA3" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M16 32 L32 32" stroke="#5B8FA3" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M20 32 L20 40 M28 32 L28 40" stroke="#5B8FA3" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3 class="card-title">1С в облаке</h3>
+                    <p class="card-description">
+                        Доступ к вашей базе 1С из любого места без необходимости 
+                        покупки серверов и их обслуживания
+                    </p>
                 </div>
                 
-                <div class="reason-item fade-in">
-                    <div class="reason-number">02</div>
-                    <h3>Опытная команда</h3>
-                    <p>Сертифицированные специалисты с опытом работы в госсекторе и крупном бизнесе</p>
+                <div class="card fade-in delay-2">
+                    <svg class="card-icon" viewBox="0 0 48 48" fill="none">
+                        <rect x="8" y="8" width="32" height="32" stroke="#5B8FA3" stroke-width="2" rx="4"/>
+                        <path d="M8 20 L40 20" stroke="#5B8FA3" stroke-width="2"/>
+                        <circle cx="16" cy="14" r="2" fill="#5B8FA3"/>
+                        <circle cx="24" cy="14" r="2" fill="#5B8FA3"/>
+                        <circle cx="32" cy="14" r="2" fill="#5B8FA3"/>
+                    </svg>
+                    <h3 class="card-title">Виртуальные серверы</h3>
+                    <p class="card-description">
+                        Масштабируемые вычислительные мощности с гарантированной 
+                        доступностью 99,9%
+                    </p>
                 </div>
                 
-                <div class="reason-item fade-in">
-                    <div class="reason-number">03</div>
-                    <h3>Гарантии качества</h3>
-                    <p>Официальные гарантии на все виды работ и техническую поддержку</p>
+                <div class="card fade-in delay-3">
+                    <svg class="card-icon" viewBox="0 0 48 48" fill="none">
+                        <path d="M24 8 L40 16 L40 32 L24 40 L8 32 L8 16 Z" stroke="#5B8FA3" stroke-width="2" fill="none"/>
+                        <path d="M24 24 L40 16 M24 24 L8 16 M24 24 L24 40" stroke="#5B8FA3" stroke-width="2"/>
+                    </svg>
+                    <h3 class="card-title">Резервное копирование</h3>
+                    <p class="card-description">
+                        Автоматическое резервное копирование данных с возможностью 
+                        быстрого восстановления
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BI Analytics Section -->
+    <section class="section" id="bi">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: center; gap: 64px;">
+                <div class="fade-in delay-1">
+                    <div class="decoration-line"></div>
+                    <h2><span class="underline-accent">BI</span>-аналитика</h2>
+                    <p class="text-secondary" style="font-size: 22px; line-height: 1.6;">
+                        Превращаем данные в понятные отчеты и дашборды 
+                        для принятия взвешенных бизнес-решений
+                    </p>
+                    <div class="mt-4">
+                        <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                            <div style="width: 60px; height: 60px; background: var(--accent-orange); opacity: 0.1; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 16px;">
+                                <span style="font-size: 24px; color: var(--accent-orange);">📊</span>
+                            </div>
+                            <div>
+                                <h4>Интерактивные дашборды</h4>
+                                <p class="text-muted">Визуализация ключевых показателей в реальном времени</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 16px;">
+                            <div style="width: 60px; height: 60px; background: var(--accent-orange); opacity: 0.1; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 16px;">
+                                <span style="font-size: 24px; color: var(--accent-orange);">📈</span>
+                            </div>
+                            <div>
+                                <h4>Прогнозная аналитика</h4>
+                                <p class="text-muted">Предсказание трендов на основе исторических данных</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-in delay-2">
+                    <svg viewBox="0 0 400 300" style="width: 100%; height: auto;">
+                        <path d="M50 250 L100 200 L150 220 L200 180 L250 160 L300 140 L350 120" stroke="#E47B44" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="100" cy="200" r="5" fill="#E47B44"/>
+                        <circle cx="150" cy="220" r="5" fill="#E47B44"/>
+                        <circle cx="200" cy="180" r="5" fill="#E47B44"/>
+                        <circle cx="250" cy="160" r="5" fill="#E47B44"/>
+                        <circle cx="300" cy="140" r="5" fill="#E47B44"/>
+                        <circle cx="350" cy="120" r="5" fill="#E47B44"/>
+                        <rect x="50" y="50" width="100" height="60" fill="#818E6F" opacity="0.2" rx="4"/>
+                        <rect x="170" y="70" width="80" height="40" fill="#5B8FA3" opacity="0.2" rx="4"/>
+                        <rect x="270" y="40" width="80" height="70" fill="#9B7E9A" opacity="0.2" rx="4"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IT Consulting Section -->
+    <section class="section" id="consulting" style="background-color: var(--bg-tertiary);">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <h2><span class="underline-accent">IT</span>-консалтинг</h2>
+                <p class="text-secondary" style="font-size: 22px; max-width: 700px; margin: 0 auto;">
+                    Экспертная оценка вашей IT-инфраструктуры и разработка 
+                    стратегии цифровой трансформации
+                </p>
+            </div>
+            
+            <div class="grid grid-2" style="gap: 48px;">
+                <div class="fade-in delay-1">
+                    <h3>Аудит IT-инфраструктуры</h3>
+                    <p class="text-secondary">
+                        Комплексный анализ существующих систем, выявление узких мест 
+                        и рекомендации по оптимизации
+                    </p>
+                    <a href="#contact" class="btn btn-secondary mt-3">Заказать аудит</a>
                 </div>
                 
-                <div class="reason-item fade-in">
-                    <div class="reason-number">04</div>
-                    <h3>Прозрачное ценообразование</h3>
-                    <p>Фиксированная стоимость проектов без скрытых платежей</p>
+                <div class="fade-in delay-2">
+                    <h3>Стратегическое планирование</h3>
+                    <p class="text-secondary">
+                        Разработка долгосрочной IT-стратегии, соответствующей 
+                        целям вашего бизнеса
+                    </p>
+                    <a href="#contact" class="btn btn-secondary mt-3">Получить консультацию</a>
+                </div>
+                
+                <div class="fade-in delay-3">
+                    <h3>Оптимизация процессов</h3>
+                    <p class="text-secondary">
+                        Анализ и реинжиниринг бизнес-процессов для повышения 
+                        эффективности работы
+                    </p>
+                    <a href="#contact" class="btn btn-secondary mt-3">Узнать больше</a>
+                </div>
+                
+                <div class="fade-in delay-4">
+                    <h3>Подбор решений</h3>
+                    <p class="text-secondary">
+                        Помощь в выборе оптимальных программных и аппаратных 
+                        решений под ваши задачи
+                    </p>
+                    <a href="#contact" class="btn btn-secondary mt-3">Обсудить задачи</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta">
+    <section class="section" id="contact">
         <div class="container">
-            <div class="cta-content fade-in">
-                <h2 class="cta-title">Нужна помощь в выборе решения?</h2>
-                <p class="cta-subtitle">
-                    Наши эксперты проведут бесплатную консультацию и помогут определить оптимальное решение для вашего бизнеса
+            <div class="text-center fade-in">
+                <h2>Нужна <span class="underline-accent">консультация</span>?</h2>
+                <p class="text-secondary" style="font-size: 22px; max-width: 600px; margin: 24px auto 48px;">
+                    Расскажите о ваших задачах, и мы предложим оптимальное 
+                    решение для вашего бизнеса
                 </p>
-                <div class="cta-buttons">
-                    <button class="btn btn-primary btn-large" id="openContactForm">Получить консультацию</button>
-                    <a href="https://wa.me/77089752414" class="btn btn-success btn-large" target="_blank">
-                        WhatsApp
-                    </a>
-                </div>
+                
+                <form class="contact-form" style="max-width: 500px; margin: 0 auto;">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-input" required>
+                            <option value="">Выберите услугу</option>
+                            <option value="1c">Внедрение 1С</option>
+                            <option value="support">Сопровождение 1С</option>
+                            <option value="web">Веб-кассы и ОФД</option>
+                            <option value="cloud">Облачные решения</option>
+                            <option value="bi">BI-аналитика</option>
+                            <option value="consulting">IT-консалтинг</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-textarea" placeholder="Опишите вашу задачу" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
+                        Получить консультацию
+                    </button>
+                </form>
+                
+                <p class="text-muted mt-4">
+                    Или позвоните нам: <a href="tel:+77089752414" style="color: var(--accent-orange); font-weight: 600;">+7 708 975 2414</a>
+                </p>
             </div>
         </div>
     </section>
@@ -450,26 +409,39 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3 class="footer-title">SalemSOFT</h3>
-                    <p class="footer-text">
-                        IT-решения, выстроенные для роста вашего бизнеса
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>SalemSOFT</h3>
+                    <p class="footer-description">
+                        Профессиональная автоматизация бизнес-процессов для 
+                        государственных компаний и крупного бизнеса Казахстана
                     </p>
+                    <div class="footer-socials mt-4">
+                        <a href="https://wa.me/77089752414" class="social-link" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="var(--text-primary)">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/+77089752414" class="social-link" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="var(--text-primary)">
+                                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Услуги</h4>
+                <div>
+                    <h4 class="footer-title">Услуги</h4>
                     <ul class="footer-links">
-                        <li><a href="services.html">Внедрение 1С</a></li>
-                        <li><a href="services.html">Сопровождение</a></li>
-                        <li><a href="services.html">Веб-кассы</a></li>
-                        <li><a href="services.html">Облачные решения</a></li>
+                        <li><a href="#1c">Внедрение 1С</a></li>
+                        <li><a href="#support">Сопровождение</a></li>
+                        <li><a href="#cloud">Облачные решения</a></li>
+                        <li><a href="#bi">BI-аналитика</a></li>
                     </ul>
                 </div>
                 
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Компания</h4>
+                <div>
+                    <h4 class="footer-title">Компания</h4>
                     <ul class="footer-links">
                         <li><a href="about.html">О нас</a></li>
                         <li><a href="clients.html">Клиенты</a></li>
@@ -477,67 +449,23 @@
                     </ul>
                 </div>
                 
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Контакты</h4>
-                    <p class="footer-contact">
-                        <strong>Телефон:</strong><br>
-                        <a href="tel:+77089752414">+7 708 975 2414</a>
-                    </p>
-                    <div class="footer-social">
-                        <a href="https://wa.me/77089752414" target="_blank" class="social-link">WhatsApp</a>
-                        <a href="https://t.me/+77089752414" target="_blank" class="social-link">Telegram</a>
-                    </div>
+                <div>
+                    <h4 class="footer-title">Контакты</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+77089752414">+7 708 975 2414</a></li>
+                        <li><a href="mailto:info@salemsoft.kz">info@salemsoft.kz</a></li>
+                        <li>Казахстан, г. Алматы</li>
+                    </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 SalemSOFT. Все права защищены.</p>
+                <p class="footer-copy">© 2024 SalemSOFT. Все права защищены.</p>
+                <p class="footer-copy">Сделано с любовью к автоматизации</p>
             </div>
         </div>
     </footer>
 
-    <!-- Contact Form Modal -->
-    <div class="modal" id="contactModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Оставить заявку</h3>
-                <button class="modal-close" id="closeModal">&times;</button>
-            </div>
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="name">Имя *</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Телефон *</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="company">Компания</label>
-                    <input type="text" id="company" name="company">
-                </div>
-                <div class="form-group">
-                    <label for="service">Интересующая услуга</label>
-                    <select id="service" name="service">
-                        <option value="">Выберите услугу</option>
-                        <option value="1c-implementation">Внедрение 1С</option>
-                        <option value="1c-support">Сопровождение 1С</option>
-                        <option value="web-cash">Веб-кассы</option>
-                        <option value="cloud">Облачные решения</option>
-                        <option value="bi-analytics">BI-аналитика</option>
-                        <option value="consulting">IT-консалтинг</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Комментарий</label>
-                    <textarea id="message" name="message" rows="4"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
-            </form>
-        </div>
-    </div>
-
     <script src="js/main.js"></script>
-    <script src="js/forms.js"></script>
 </body>
 </html>

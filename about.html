@@ -8,289 +8,299 @@
     <title>О компании - SalemSOFT</title>
     
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/responsive.css">
     
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <a href="index.html">
-                        <h1>SalemSOFT</h1>
-                    </a>
-                </div>
-                
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="index.html" class="nav-link">Главная</a></li>
-                        <li><a href="about.html" class="nav-link active">О компании</a></li>
-                        <li><a href="services.html" class="nav-link">Услуги</a></li>
-                        <li><a href="clients.html" class="nav-link">Клиенты</a></li>
-                        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
-                    </ul>
-                </nav>
-                
-                <div class="header-contact">
-                    <a href="tel:+77089752414" class="phone">+7 708 975 2414</a>
-                    <button class="btn btn-primary btn-header">Связаться</button>
-                </div>
-                
-                <div class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">SalemSOFT</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Услуги</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-left">
+                            <div class="dropdown-title">Наши услуги</div>
+                            <div class="dropdown-links">
+                                <a href="services.html#1c" class="dropdown-link">Внедрение 1С</a>
+                                <a href="services.html#support" class="dropdown-link">Сопровождение 1С:ИТС</a>
+                                <a href="services.html#web" class="dropdown-link">Веб-кассы и ОФД</a>
+                                <a href="services.html#cloud" class="dropdown-link">Облачные решения</a>
+                                <a href="services.html#bi" class="dropdown-link">BI-аналитика</a>
+                                <a href="services.html#consulting" class="dropdown-link">IT-консалтинг</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-right">
+                            <div class="dropdown-card dropdown-card-orange">
+                                <svg class="dropdown-illustration" viewBox="0 0 200 120" fill="none">
+                                    <path d="M20 60 L60 20 L100 60 L140 30 L180 70" stroke="#E47B44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="60" cy="20" r="5" fill="#E47B44"/>
+                                    <circle cx="100" cy="60" r="5" fill="#E47B44"/>
+                                    <circle cx="140" cy="30" r="5" fill="#E47B44"/>
+                                    <circle cx="180" cy="70" r="5" fill="#E47B44"/>
+                                </svg>
+                                <span class="dropdown-subtitle">Внедрение и поддержка</span>
+                                <h4>Автоматизация для роста вашего бизнеса</h4>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">О компании</a>
+                </li>
+                <li class="nav-item">
+                    <a href="clients.html" class="nav-link">Клиенты</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </li>
+            </ul>
+            
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </header>
+    </nav>
 
-    <!-- Page Header -->
-    <section class="page-header">
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <div class="page-header-content fade-in" data-parallax>
-                <h1 class="page-title">О компании</h1>
-                <p class="page-subtitle">Надежный партнер в области автоматизации бизнес-процессов</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Main -->
-    <section class="about-main">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-text slide-in-left">
-                    <h2>Кто мы</h2>
-                    <p>
-                        <strong>SalemSOFT</strong> — это команда опытных IT-специалистов, которая уже более 10 лет 
-                        помогает государственным компаниям и крупному бизнесу Казахстана автоматизировать 
-                        свои процессы и повышать эффективность работы.
-                    </p>
-                    <p>
-                        Мы специализируемся на внедрении и сопровождении решений 1С:Предприятие, 
-                        создании облачных решений, настройке бизнес-аналитики и комплексном 
-                        IT-консалтинге. Наша миссия — помочь каждому клиенту построить эффективную 
-                        IT-инфраструктуру, которая станет основой для роста и развития бизнеса.
-                    </p>
-                </div>
-                
-                <div class="about-stats slide-in-right">
-                    <div class="stat-item fade-in">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">лет опыта</div>
-                    </div>
-                    <div class="stat-item fade-in">
-                        <div class="stat-number">100+</div>
-                        <div class="stat-label">проектов</div>
-                    </div>
-                    <div class="stat-item fade-in">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">клиентов</div>
-                    </div>
-                    <div class="stat-item fade-in">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">поддержка</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mission -->
-    <section class="mission">
-        <div class="container">
-            <div class="mission-content fade-in">
-                <h2 class="section-title">Наша миссия</h2>
-                <p class="mission-text">
-                    Мы стремимся стать ведущим поставщиком IT-решений в Казахстане, помогая 
-                    организациям любого масштаба — от небольших компаний до крупных государственных 
-                    холдингов — достигать своих целей через эффективную автоматизацию и цифровую трансформацию.
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    Мы помогаем бизнесу <span class="underline-accent">расти</span>
+                </h1>
+                <p class="hero-description">
+                    Более 10 лет опыта в автоматизации бизнес-процессов 
+                    для государственных компаний и крупного бизнеса Казахстана
                 </p>
-                
-                <div class="mission-values">
-                    <div class="value-item fade-in">
-                        <h3>Профессионализм</h3>
-                        <p>Высокая квалификация и постоянное развитие компетенций нашей команды</p>
-                    </div>
-                    <div class="value-item fade-in">
-                        <h3>Качество</h3>
-                        <p>Комплексный подход к решению задач и внимание к деталям в каждом проекте</p>
-                    </div>
-                    <div class="value-item fade-in">
-                        <h3>Надежность</h3>
-                        <p>Соблюдение сроков, прозрачность процессов и долгосрочные партнерские отношения</p>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: center; gap: 64px;">
+                <div class="fade-in delay-1">
+                    <div class="decoration-line"></div>
+                    <h2>Наша <span class="underline-accent">история</span></h2>
+                    <p class="text-secondary" style="font-size: 22px; line-height: 1.6;">
+                        SalemSOFT начала свою деятельность в 2013 году как небольшая команда 
+                        энтузиастов, увлеченных идеей автоматизации бизнес-процессов.
+                    </p>
+                    <p class="text-secondary">
+                        За годы работы мы выросли в надежного партнера для десятков компаний, 
+                        включая крупнейшие государственные организации уровня Самрук-Қазына. 
+                        Наш подход основан на глубоком понимании специфики казахстанского 
+                        бизнеса и требований государственного сектора.
+                    </p>
+                </div>
+                <div class="fade-in delay-2">
+                    <svg viewBox="0 0 400 300" style="width: 100%; height: auto;">
+                        <!-- Timeline illustration -->
+                        <line x1="50" y1="150" x2="350" y2="150" stroke="#E47B44" stroke-width="2"/>
+                        <circle cx="50" cy="150" r="8" fill="#E47B44"/>
+                        <circle cx="150" cy="150" r="8" fill="#818E6F"/>
+                        <circle cx="250" cy="150" r="8" fill="#5B8FA3"/>
+                        <circle cx="350" cy="150" r="8" fill="#9B7E9A"/>
+                        <text x="50" y="130" text-anchor="middle" fill="#141413" font-size="16" font-weight="600">2013</text>
+                        <text x="150" y="130" text-anchor="middle" fill="#141413" font-size="16" font-weight="600">2016</text>
+                        <text x="250" y="130" text-anchor="middle" fill="#141413" font-size="16" font-weight="600">2019</text>
+                        <text x="350" y="130" text-anchor="middle" fill="#141413" font-size="16" font-weight="600">2024</text>
+                        <text x="50" y="180" text-anchor="middle" fill="#4A4944" font-size="12">Основание</text>
+                        <text x="150" y="180" text-anchor="middle" fill="#4A4944" font-size="12">Партнер 1С</text>
+                        <text x="250" y="180" text-anchor="middle" fill="#4A4944" font-size="12">50+ проектов</text>
+                        <text x="350" y="180" text-anchor="middle" fill="#4A4944" font-size="12">Лидер рынка</text>
+                    </svg>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience -->
-    <section class="experience">
+    <!-- Mission Section -->
+    <section class="section" style="background-color: var(--bg-tertiary);">
         <div class="container">
-            <div class="section-header fade-in">
-                <h2 class="section-title">Опыт работы</h2>
-                <p class="section-subtitle">Доверие крупнейших компаний Казахстана</p>
-            </div>
-            
-            <div class="experience-content">
-                <div class="experience-item fade-in">
-                    <div class="experience-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
-                        </svg>
-                    </div>
-                    <div class="experience-text">
-                        <h3>Государственный сектор</h3>
-                        <p>
-                            Успешно реализовали проекты автоматизации для компаний группы Самрук-Қазына, 
-                            государственных учреждений и акиматов. Понимаем специфику работы с госсектором 
-                            и требования к документообороту.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="experience-item fade-in">
-                    <div class="experience-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/>
-                        </svg>
-                    </div>
-                    <div class="experience-text">
-                        <h3>Крупный бизнес</h3>
-                        <p>
-                            Помогли десяткам крупных частных компаний оптимизировать бизнес-процессы, 
-                            внедрить современные системы учета и аналитики. Работаем с компаниями 
-                            различных отраслей — от торговли до производства.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="experience-item fade-in">
-                    <div class="experience-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                        </svg>
-                    </div>
-                    <div class="experience-text">
-                        <h3>Партнерство с 1С</h3>
-                        <p>
-                            Являемся официальным партнером 1С, что гарантирует высокое качество 
-                            наших решений и доступ к последним обновлениям и технологиям. 
-                            Наша команда регулярно проходит сертификацию.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team -->
-    <section class="team">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2 class="section-title">Наша команда</h2>
-                <p class="section-subtitle">Профессионалы, которым вы можете доверять</p>
-            </div>
-            
-            <div class="team-content fade-in">
-                <p class="team-description">
-                    В нашей команде работают сертифицированные специалисты по внедрению и сопровождению 
-                    систем 1С, эксперты по облачным технологиям, аналитики и консультанты с многолетним 
-                    опытом работы в сфере автоматизации бизнеса.
+            <div class="text-center mb-5 fade-in">
+                <h2>Наша <span class="underline-accent">миссия</span></h2>
+                <p class="text-secondary" style="font-size: 24px; max-width: 800px; margin: 0 auto;">
+                    Мы стремимся сделать технологии доступными и понятными, 
+                    помогая компаниям трансформировать свои процессы и достигать 
+                    новых высот эффективности
                 </p>
+            </div>
+            
+            <div class="grid grid-3 mt-5">
+                <div class="card fade-in delay-1">
+                    <svg class="card-icon" viewBox="0 0 48 48" fill="none">
+                        <path d="M24 12 L12 24 L24 36 L36 24 Z" stroke="#E47B44" stroke-width="2" fill="none"/>
+                        <circle cx="24" cy="24" r="4" fill="#E47B44"/>
+                    </svg>
+                    <h3 class="card-title">Инновации</h3>
+                    <p class="card-description">
+                        Внедряем передовые технологии и следим за последними трендами 
+                        в сфере автоматизации
+                    </p>
+                </div>
                 
-                <div class="team-expertise">
-                    <div class="expertise-item fade-in">
-                        <h4>1С Разработчики</h4>
-                        <p>Сертифицированные специалисты по всем конфигурациям 1С</p>
-                    </div>
-                    <div class="expertise-item fade-in">
-                        <h4>Системные аналитики</h4>
-                        <p>Эксперты по оптимизации и автоматизации бизнес-процессов</p>
-                    </div>
-                    <div class="expertise-item fade-in">
-                        <h4>Консультанты</h4>
-                        <p>Опытные специалисты по внедрению и обучению пользователей</p>
-                    </div>
-                    <div class="expertise-item fade-in">
-                        <h4>Техническая поддержка</h4>
-                        <p>Круглосуточная поддержка и администрирование систем</p>
-                    </div>
+                <div class="card fade-in delay-2">
+                    <svg class="card-icon" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="20" stroke="#818E6F" stroke-width="2" fill="none"/>
+                        <path d="M24 4 L24 24 L40 24" stroke="#818E6F" stroke-width="2"/>
+                    </svg>
+                    <h3 class="card-title">Надежность</h3>
+                    <p class="card-description">
+                        Гарантируем стабильную работу внедренных решений и круглосуточную 
+                        техническую поддержку
+                    </p>
+                </div>
+                
+                <div class="card fade-in delay-3">
+                    <svg class="card-icon" viewBox="0 0 48 48" fill="none">
+                        <path d="M12 24 C12 24 18 18 24 18 C30 18 36 24 36 24 C36 24 30 30 24 30 C18 30 12 24 12 24 Z" stroke="#5B8FA3" stroke-width="2" fill="none"/>
+                        <circle cx="24" cy="24" r="4" fill="#5B8FA3"/>
+                    </svg>
+                    <h3 class="card-title">Прозрачность</h3>
+                    <p class="card-description">
+                        Открыто общаемся с клиентами на всех этапах проекта и предоставляем 
+                        детальную отчетность
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certificates -->
-    <section class="certificates">
+    <!-- Values Section -->
+    <section class="section">
         <div class="container">
-            <div class="section-header fade-in">
-                <h2 class="section-title">Сертификаты и партнерства</h2>
-                <p class="section-subtitle">Подтверждение нашей экспертности</p>
+            <h2 class="text-center mb-5 fade-in">Наши <span class="underline-accent">ценности</span></h2>
+            
+            <div class="grid grid-2" style="gap: 48px;">
+                <div class="fade-in delay-1">
+                    <h3>Клиентоориентированность</h3>
+                    <p class="text-secondary">
+                        Каждый проект начинается с глубокого изучения потребностей клиента. 
+                        Мы не предлагаем готовые решения — мы создаем систему, которая 
+                        идеально подходит именно вашему бизнесу.
+                    </p>
+                </div>
+                
+                <div class="fade-in delay-2">
+                    <h3>Профессионализм</h3>
+                    <p class="text-secondary">
+                        Наша команда — это сертифицированные специалисты с многолетним 
+                        опытом. Мы постоянно повышаем квалификацию и следим за новыми 
+                        технологиями.
+                    </p>
+                </div>
+                
+                <div class="fade-in delay-3">
+                    <h3>Партнерство</h3>
+                    <p class="text-secondary">
+                        Мы строим долгосрочные отношения с клиентами. Более 80% наших 
+                        проектов — это работа с постоянными партнерами, которые доверяют 
+                        нам уже много лет.
+                    </p>
+                </div>
+                
+                <div class="fade-in delay-4">
+                    <h3>Результативность</h3>
+                    <p class="text-secondary">
+                        Успех проекта измеряется не только внедренным функционалом, но и 
+                        реальными бизнес-результатами: ростом эффективности, сокращением 
+                        издержек, ускорением процессов.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section" style="background-color: var(--bg-tertiary);">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <h2>Наша <span class="underline-accent">команда</span></h2>
+                <p class="text-secondary" style="font-size: 22px; max-width: 600px; margin: 0 auto;">
+                    Профессионалы, которые любят свое дело и делают его превосходно
+                </p>
             </div>
             
-            <div class="certificates-grid">
-                <div class="certificate-item fade-in">
-                    <div class="certificate-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
-                        </svg>
-                    </div>
-                    <h3>Партнер 1С</h3>
-                    <p>Официальное партнерство с компанией 1С</p>
+            <div class="grid grid-4 text-center">
+                <div class="fade-in delay-1">
+                    <div style="width: 120px; height: 120px; background: var(--accent-orange); border-radius: 50%; margin: 0 auto 24px; opacity: 0.2;"></div>
+                    <h4>20+</h4>
+                    <p class="text-secondary">Специалистов</p>
                 </div>
                 
-                <div class="certificate-item fade-in">
-                    <div class="certificate-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                        </svg>
-                    </div>
-                    <h3>ISO 9001</h3>
-                    <p>Сертификат качества управления</p>
+                <div class="fade-in delay-2">
+                    <div style="width: 120px; height: 120px; background: var(--accent-green); border-radius: 50%; margin: 0 auto 24px; opacity: 0.2;"></div>
+                    <h4>15+</h4>
+                    <p class="text-secondary">Сертификатов 1С</p>
                 </div>
                 
-                <div class="certificate-item fade-in">
-                    <div class="certificate-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                        </svg>
-                    </div>
-                    <h3>Microsoft Partner</h3>
-                    <p>Партнерство с Microsoft по облачным решениям</p>
+                <div class="fade-in delay-3">
+                    <div style="width: 120px; height: 120px; background: var(--accent-blue); border-radius: 50%; margin: 0 auto 24px; opacity: 0.2;"></div>
+                    <h4>8+</h4>
+                    <p class="text-secondary">Лет средний опыт</p>
                 </div>
                 
-                <div class="certificate-item fade-in">
-                    <div class="certificate-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
+                <div class="fade-in delay-4">
+                    <div style="width: 120px; height: 120px; background: var(--accent-purple); border-radius: 50%; margin: 0 auto 24px; opacity: 0.2;"></div>
+                    <h4>24/7</h4>
+                    <p class="text-secondary">Поддержка</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <h2>Наши <span class="underline-accent">партнеры</span></h2>
+                <p class="text-secondary" style="font-size: 22px;">
+                    Мы гордимся сотрудничеством с лидерами индустрии
+                </p>
+            </div>
+            
+            <div class="grid grid-3" style="align-items: center; justify-items: center;">
+                <div class="fade-in delay-1">
+                    <div style="padding: 32px; background: var(--bg-secondary); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
+                        <h3 style="color: var(--accent-orange);">1С</h3>
+                        <p class="text-muted">Официальный партнер</p>
                     </div>
-                    <h3>Безопасность данных</h3>
-                    <p>Сертификат по информационной безопасности</p>
+                </div>
+                
+                <div class="fade-in delay-2">
+                    <div style="padding: 32px; background: var(--bg-secondary); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
+                        <h3 style="color: var(--accent-green);">Microsoft</h3>
+                        <p class="text-muted">Cloud Partner</p>
+                    </div>
+                </div>
+                
+                <div class="fade-in delay-3">
+                    <div style="padding: 32px; background: var(--bg-secondary); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
+                        <h3 style="color: var(--accent-blue);">Самрук-Қазына</h3>
+                        <p class="text-muted">Квалифицированный поставщик</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta">
+    <section class="section">
         <div class="container">
-            <div class="cta-content fade-in">
-                <h2 class="cta-title">Хотите стать нашим клиентом?</h2>
-                <p class="cta-subtitle">
-                    Свяжитесь с нами для обсуждения вашего проекта автоматизации
+            <div class="text-center fade-in">
+                <h2>Давайте <span class="underline-accent">работать</span> вместе</h2>
+                <p class="text-secondary" style="font-size: 22px; max-width: 600px; margin: 24px auto 48px;">
+                    Готовы обсудить ваш проект? Свяжитесь с нами, и мы предложим 
+                    оптимальное решение для вашего бизнеса
                 </p>
-                <div class="cta-buttons">
-                    <button class="btn btn-primary btn-large" id="openContactForm">Оставить заявку</button>
-                    <a href="https://wa.me/77089752414" class="btn btn-success btn-large" target="_blank">
-                        WhatsApp
-                    </a>
-                </div>
+                <a href="contacts.html" class="btn btn-primary btn-large">Связаться с нами</a>
             </div>
         </div>
     </section>
@@ -298,26 +308,39 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3 class="footer-title">SalemSOFT</h3>
-                    <p class="footer-text">
-                        IT-решения, выстроенные для роста вашего бизнеса
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>SalemSOFT</h3>
+                    <p class="footer-description">
+                        Профессиональная автоматизация бизнес-процессов для 
+                        государственных компаний и крупного бизнеса Казахстана
                     </p>
+                    <div class="footer-socials mt-4">
+                        <a href="https://wa.me/77089752414" class="social-link" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="var(--text-primary)">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/+77089752414" class="social-link" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="var(--text-primary)">
+                                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Услуги</h4>
+                <div>
+                    <h4 class="footer-title">Услуги</h4>
                     <ul class="footer-links">
-                        <li><a href="services.html">Внедрение 1С</a></li>
-                        <li><a href="services.html">Сопровождение</a></li>
-                        <li><a href="services.html">Веб-кассы</a></li>
-                        <li><a href="services.html">Облачные решения</a></li>
+                        <li><a href="services.html#1c">Внедрение 1С</a></li>
+                        <li><a href="services.html#support">Сопровождение</a></li>
+                        <li><a href="services.html#cloud">Облачные решения</a></li>
+                        <li><a href="services.html#bi">BI-аналитика</a></li>
                     </ul>
                 </div>
                 
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Компания</h4>
+                <div>
+                    <h4 class="footer-title">Компания</h4>
                     <ul class="footer-links">
                         <li><a href="about.html">О нас</a></li>
                         <li><a href="clients.html">Клиенты</a></li>
@@ -325,55 +348,23 @@
                     </ul>
                 </div>
                 
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Контакты</h4>
-                    <p class="footer-contact">
-                        <strong>Телефон:</strong><br>
-                        <a href="tel:+77089752414">+7 708 975 2414</a>
-                    </p>
-                    <div class="footer-social">
-                        <a href="https://wa.me/77089752414" target="_blank" class="social-link">WhatsApp</a>
-                        <a href="https://t.me/+77089752414" target="_blank" class="social-link">Telegram</a>
-                    </div>
+                <div>
+                    <h4 class="footer-title">Контакты</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+77089752414">+7 708 975 2414</a></li>
+                        <li><a href="mailto:info@salemsoft.kz">info@salemsoft.kz</a></li>
+                        <li>Казахстан, г. Алматы</li>
+                    </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 SalemSOFT. Все права защищены.</p>
+                <p class="footer-copy">© 2024 SalemSOFT. Все права защищены.</p>
+                <p class="footer-copy">Сделано с любовью к автоматизации</p>
             </div>
         </div>
     </footer>
 
-    <!-- Contact Form Modal -->
-    <div class="modal" id="contactModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Оставить заявку</h3>
-                <button class="modal-close" id="closeModal">&times;</button>
-            </div>
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="name">Имя *</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Телефон *</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="company">Компания</label>
-                    <input type="text" id="company" name="company">
-                </div>
-                <div class="form-group">
-                    <label for="message">Комментарий</label>
-                    <textarea id="message" name="message" rows="4"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
-            </form>
-        </div>
-    </div>
-
     <script src="js/main.js"></script>
-    <script src="js/forms.js"></script>
 </body>
 </html>
