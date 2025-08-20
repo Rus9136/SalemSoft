@@ -33,6 +33,7 @@ const SalemSOFT = {
         this.initScrollAnimations();
         this.initNavigation();
         this.initForms();
+        this.setActiveNavigation();
         console.log('✨ SalemSOFT anthropic-style website initialized');
     },
     
@@ -362,6 +363,34 @@ const SalemSOFT = {
             gtag('event', event, data);
         }
         console.log('📊 Event:', event, data);
+    },
+    
+    // Set active navigation based on current page
+    setActiveNavigation() {
+        const currentPage = window.location.pathname;
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        // Remove active class from all links
+        navLinks.forEach(link => link.classList.remove('active'));
+        
+        // Determine which page we're on and set active state
+        let activeLink = null;
+        
+        if (currentPage === '/' || currentPage.includes('index.html') || currentPage.includes('главная')) {
+            // Home page - no specific link to highlight as it's not in menu
+        } else if (currentPage.includes('about.html') || currentPage.includes('о-компании')) {
+            activeLink = document.querySelector('a[href="/о-компании"]');
+        } else if (currentPage.includes('services.html') || currentPage.includes('услуги')) {
+            activeLink = document.querySelector('.nav-item:first-child .nav-link'); // Services dropdown
+        } else if (currentPage.includes('clients.html') || currentPage.includes('клиенты')) {
+            activeLink = document.querySelector('a[href="/клиенты"]');
+        } else if (currentPage.includes('contacts.html') || currentPage.includes('контакты')) {
+            activeLink = document.querySelector('a[href="/контакты"]');
+        }
+        
+        if (activeLink) {
+            activeLink.classList.add('active');
+        }
     },
     
     // Clean up

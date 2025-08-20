@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Design System Colors */
+    --bg: 14 17 22; /* #0E1116 */
+    --bg-soft: 18 23 34; /* #121722 */
+    --surface: 22 27 38; /* #161B26 */
+    --accent: 98 139 255; /* #628BFF */
+    --accent-600: 123 145 255; /* #7B91FF */
+    --accent-300: 174 187 255; /* #AEBBFF */
+    --fg: 231 236 243; /* #E7ECF3 */
+    --muted: 165 176 194; /* #A5B0C2 */
+    --line: 37 48 71; /* #253047 */
+    --success: 73 210 158; /* #49D29E */
+    --danger: 255 107 107; /* #FF6B6B */
+
+    /* shadcn/ui variables */
+    --background: var(--bg);
+    --foreground: var(--fg);
+    --card: var(--surface);
+    --card-foreground: var(--fg);
+    --popover: var(--surface);
+    --popover-foreground: var(--fg);
+    --primary: var(--accent);
+    --primary-foreground: 14 17 22;
+    --secondary: var(--bg-soft);
+    --secondary-foreground: var(--fg);
+    --muted: var(--bg-soft);
+    --muted-foreground: var(--muted);
+    --accent: var(--accent);
+    --accent-foreground: 14 17 22;
+    --destructive: var(--danger);
+    --destructive-foreground: var(--fg);
+    --border: var(--line);
+    --input: var(--line);
+    --ring: var(--accent);
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-bg text-fg font-body;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-bg-soft;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-line rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent/50;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-accent/20 text-fg;
+  }
+
+  /* Focus styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-bg;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-container px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent to-accent-300 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply bg-surface/50 backdrop-blur-lg border border-line/50;
+  }
+
+  .glow-effect {
+    @apply shadow-lg shadow-accent/20;
+  }
+
+  .grid-background {
+    @apply bg-grid-pattern;
+  }
+
+  .hero-gradient {
+    background: radial-gradient(circle at 50% 0%, rgba(98, 139, 255, 0.1) 0%, transparent 50%);
+  }
+}
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

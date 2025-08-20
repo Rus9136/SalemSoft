@@ -200,6 +200,27 @@ a:hover {
 }
 
 .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: opacity var(--transition-base);
+}
+
+.nav-logo:hover {
+    opacity: 0.8;
+}
+
+.nav-logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-logo-text {
     font-size: 24px;
     font-weight: 700;
     color: var(--text-primary);
@@ -234,8 +255,14 @@ a:hover {
     transition: width var(--transition-base);
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link.active::after {
     width: 100%;
+}
+
+.nav-link.active {
+    color: var(--accent-orange);
+    font-weight: 600;
 }
 
 /* Dropdown Menu */
@@ -640,6 +667,25 @@ a:hover {
     margin-bottom: var(--space-md);
 }
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: var(--space-md);
+}
+
+.footer-logo img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-logo h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .footer-description {
     color: var(--text-secondary);
     max-width: 400px;
@@ -813,6 +859,24 @@ a:hover {
 
     .container {
         padding: 0 var(--space-md);
+    }
+    
+    .nav-logo-img {
+        height: 32px;
+    }
+    
+    .nav-logo-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-logo-text {
+        display: none;
+    }
+    
+    .nav-logo-img {
+        height: 36px;
     }
 
     .section {
