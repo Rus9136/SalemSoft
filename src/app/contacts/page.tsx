@@ -8,7 +8,7 @@ import { SITE_CONFIG } from '@/lib/config'
 
 export const metadata: Metadata = {
   title: 'Контакты',
-  description: 'Свяжитесь с нами для консультации по внедрению CRM систем. Телефон, email, мессенджеры.',
+  description: 'Свяжитесь с нами для консультации по внедрению 1С систем. Телефон, email, мессенджеры.',
 }
 
 const contactInfo = [
@@ -167,7 +167,7 @@ export default function ContactsPage() {
                       </div>
                       <div>
                         <h4 className="font-medium text-fg mb-1">Подбор решения</h4>
-                        <p className="text-sm text-fg-muted">Предлагаем оптимальный вариант CRM</p>
+                        <p className="text-sm text-fg-muted">Предлагаем оптимальный вариант 1С</p>
                       </div>
                     </div>
                     

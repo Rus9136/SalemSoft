@@ -1,6 +1,6 @@
 import {
   Settings,
-  Handshake,
+  Heart,
   Rocket,
   Target
 } from 'lucide-react'
@@ -11,7 +11,7 @@ import { SITE_CONFIG } from '@/lib/config'
 
 const iconMap = {
   Settings,
-  Handshake,
+  Heart,
   Rocket,
   Target
 } as const
@@ -23,7 +23,7 @@ export function BenefitsSection() {
         <SectionHeading
           eyebrow="Почему мы"
           title="Подход, который работает"
-          description="Мы не просто внедряем CRM — мы трансформируем ваш бизнес"
+          description="Мы не просто внедряем 1С — мы помогаем вашим бизнес-процессам выйти на новый уровень"
           centered
           className="mb-16"
         />

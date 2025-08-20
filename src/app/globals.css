@@ -96,11 +96,11 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-accent to-accent-300 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent;
   }
 
   .glass-effect {
-    @apply bg-surface/50 backdrop-blur-lg border border-line/50;
+    @apply bg-gray-900/50 backdrop-blur-lg border border-gray-700/50;
   }
 
   .glow-effect {

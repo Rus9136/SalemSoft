@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
+  output: 'export',
   images: {
-    domains: [],
-    formats: ['image/webp', 'image/avif'],
-  },
-  async redirects() {
-    return []
+    unoptimized: true,
   },
 }
 

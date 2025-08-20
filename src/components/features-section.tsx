@@ -25,9 +25,9 @@ export function FeaturesSection() {
     <section id="features" className="section-padding bg-bg">
       <div className="container">
         <SectionHeading
-          eyebrow="Возможности"
-          title="Всё для эффективных продаж"
-          description="Комплексное решение для автоматизации бизнес-процессов, повышения конверсии и роста прибыли"
+          eyebrow="Услуги"
+          title="Всё для эффективного учёта и управления"
+          description="Комплексные услуги официального франчайзи 1С для автоматизации учёта и оптимизации бизнес-процессов"
           centered
           className="mb-16"
         />

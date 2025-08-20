@@ -8,8 +8,8 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 
 export const metadata: Metadata = {
-  title: 'Цены на CRM системы',
-  description: 'Тарифы на внедрение и сопровождение CRM систем. Калькулятор стоимости для вашего проекта.',
+  title: 'Цены на 1С системы',
+  description: 'Тарифы на внедрение и сопровождение 1С систем. Калькулятор стоимости для вашего проекта.',
 }
 
 const pricingPlans = [
@@ -21,7 +21,7 @@ const pricingPlans = [
     badge: null,
     features: [
       { name: 'До 5 пользователей', included: true },
-      { name: 'Базовая CRM функциональность', included: true },
+      { name: 'Базовая 1С функциональность', included: true },
       { name: '2 интеграции (WhatsApp, Email)', included: true },
       { name: 'Мобильное приложение', included: true },
       { name: 'Техподдержка 8/5', included: true },
@@ -42,7 +42,7 @@ const pricingPlans = [
     badge: 'Популярный',
     features: [
       { name: 'До 20 пользователей', included: true },
-      { name: 'Полная CRM функциональность', included: true },
+      { name: 'Полная 1С функциональность', included: true },
       { name: '5 интеграций', included: true },
       { name: 'Мобильное приложение', included: true },
       { name: 'Техподдержка 24/7', included: true },
@@ -63,7 +63,7 @@ const pricingPlans = [
     badge: 'Корпоративный',
     features: [
       { name: 'Неограниченные пользователи', included: true },
-      { name: 'Корпоративная CRM', included: true },
+      { name: 'Корпоративная 1С', included: true },
       { name: 'Неограниченные интеграции', included: true },
       { name: 'Мобильное приложение', included: true },
       { name: 'Персональный менеджер', included: true },
@@ -86,7 +86,7 @@ export default function PricingPage() {
         <div className="container">
           <SectionHeading
             eyebrow="Ценообразование"
-            title="Прозрачные цены на CRM решения"
+            title="Прозрачные цены на 1С решения"
             description="Выберите тариф, который подходит вашему бизнесу. Без скрытых платежей, с гарантией результата."
             centered
             className="mb-16"
@@ -246,7 +246,7 @@ export default function PricingPage() {
               {[
                 {
                   question: 'Что входит в стоимость внедрения?',
-                  answer: 'Анализ бизнес-процессов, настройка CRM под ваши задачи, интеграции, обучение команды, техническая документация и 3 месяца поддержки.'
+                  answer: 'Анализ бизнес-процессов, настройка 1С под ваши задачи, интеграции, обучение команды, техническая документация и 3 месяца поддержки.'
                 },
                 {
                   question: 'Можно ли изменить тариф в процессе использования?',
